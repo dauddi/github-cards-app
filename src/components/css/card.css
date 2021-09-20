@@ -1,0 +1,21 @@
+.card{
+	width: 100%;
+	display: flex;
+	gap: 2rem;
+	justify-content: baseline;
+	align-items: center;
+	border: 1px solid lightgrey;
+	border-radius: 2rem;
+	box-shadow: 1em .5em .5em lightgrey;
+	margin: 1em;
+}
+
+.card > * {
+	margin: 2rem;
+}
+
+.card > .card__image{
+	object-fit: contain;
+	width: 150px;
+	border-radius: 5rem;
+}

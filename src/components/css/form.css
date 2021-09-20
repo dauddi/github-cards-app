@@ -1,0 +1,16 @@
+.form{
+	width: 100%;
+	display: flex;
+	gap: .5rem;
+	border: 1px solid lightgrey;
+	border-radius: 1rem;
+	margin: 1rem;
+	align-items: center;
+	justify-content: center;
+};
+
+.form > input{
+	border-radius: 1rem;
+	font-weight: 600;
+	margin: 1rem;
+};
