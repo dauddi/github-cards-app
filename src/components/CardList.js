@@ -2,11 +2,11 @@ import React from "react";
 import Card from "./Card"
 
 function CardList(props){
+	const profiles = props.card__object
+	
 	return (
 		<div className="cards__container">
-			{ props.card__object.map(profile__object => {
-				return <Card card__object = {profile__object}/>
-			}) }		
+			{ profiles.map(profile => <Card key={profile.id} card__object={profile} /> ) }
 		</div>
 	);
 	

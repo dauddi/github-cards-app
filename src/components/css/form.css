@@ -1,5 +1,5 @@
 .form{
-	width: 100%;
+	width: 70%;
 	display: flex;
 	gap: .5rem;
 	border: 1px solid lightgrey;
@@ -7,10 +7,16 @@
 	margin: 1rem;
 	align-items: center;
 	justify-content: center;
+	background-color: lightcoral;
 };
 
-.form > input{
+.form > * {
+	padding: 1rem;
+} 
+
+.form input{
 	border-radius: 1rem;
 	font-weight: 600;
 	margin: 1rem;
+	padding: .5rem;
 };
