@@ -22,7 +22,7 @@ function Form(props){
 
 	return(
 		<form onSubmit={onSubmitHandler} className="form">
-			<input onChange={onChangeHandler} value={userNameInput} type="text" placeholder="github username" required />
+			<input onChange={onChangeHandler} value={userNameInput} autocomplete type="text" placeholder="github username" required />
 			<button>Add User</button>
 			<Clear userDataHandler={props.userDataHandler} />
 		</form>
